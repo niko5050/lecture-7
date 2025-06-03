@@ -1,0 +1,125 @@
+.duck-animation {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation: duck 14s infinite;
+    transform: translate(800px, -300px);
+    animation-direction: alternate;
+}
+
+@keyframes duck {
+    from {left: 0;}
+    to {left: 800px;}
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.animation-cloud1, .animation-cloud2, .animation-cloud3 {
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+}
+
+.animation-cloud1 {
+    animation: cloud 1s infinite;
+    position: relative;
+    animation-direction: alternate;
+    transform: translate(468px, -36px);
+
+}
+
+@keyframes cloud {
+    from {top:0 ;}
+    to {top :50px; }
+}
+
+.animation-cloud2 {
+    animation: cloud 1s infinite;
+    position: relative;
+    animation-direction: alternate;
+
+}
+
+@keyframes cloud {
+    from {top:0 ;}
+    to {top :50px; }
+}
+
+.animation-cloud3 {
+    animation: cloud 1s infinite;
+    position: relative;
+    animation-direction: alternate;
+
+}
+
+@keyframes cloud {
+    from {top:0 ;}
+    to {top :50px; }
+}
+
+
+.animation-cloud2 {
+    transform: translate(943px, -87px);
+}
+
+.animation-cloud3 {
+    transform: translate(1448px, -118px);
+}
+
+
+.fish {
+    width: 100px;
+}
+
+.fish-red {
+    transform: translate(700px, -87px);
+}
+
+.fish-blue {
+    transform: translate(890px, -300px);
+}
+
+
+.fish-yellow {
+    transform: translate(750px, -550px);
+}
+
+
+.fish-red {
+    position: relative;
+    animation: fish1 4s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes fish1 {
+    from {left: 0;}
+    to {left: 800px;}
+}
+
+.fish-blue {
+    position: relative;
+    animation: fish2 10s infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes fish2 {
+    from {left: 0;}
+    to {left: 600px;}
+}
+
+.fish-yellow {
+    position: relative;
+    animation: fish3 7s infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes fish3 {
+    from {left: 0;}
+    to {left: 800px;}
+}
